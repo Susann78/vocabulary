@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  margin-left: 50px;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.logo p {
+  text-decoration: none;
+  color: white;
+  padding-top: 37px;
+}
+
+main {
+  height: 80vh;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.set {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.set div {
+  width: 350px;
+  height: 450px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 0.1rem;
+  background-color: white;
+  box-shadow: 2px 5px 8px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+.set div a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.set div a p {
+  padding-left: 20px;
+  padding-top: 350px;
+}
